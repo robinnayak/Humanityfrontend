@@ -8,21 +8,11 @@ function ConnectLinks() {
     return (
         <>
             <Switch>
-                <Route path="/home">
-                    <Home />
-                </Route>
-                <Route path="/home">
-                    <About />
-                </Route>
-                <Route path="/home">
-                    <Available />
-                </Route>
-                <Route path="/home">
-                    <Store />
-                </Route>
-                <Route path="/home">
-                    <Signup />
-                </Route>
+                <Route exact path ="/" component={Home} />
+                <Route exact path ="/about" component={About} />
+                <Route exact path ="/available" component={Available} />
+                <Route exact path ="/store" component={Store} />
+                <Route exact path ="/signup" component={Signup} />
             </Switch>
         </>
     )

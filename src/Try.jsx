@@ -12,8 +12,9 @@ export default class Try extends Component {
       slidesToScroll: 1,
       centerMode: true,
       autoplay:true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1000,
     };
+    console.log(window.innerWidth>"768px"?1:2);
     return (
       <div>
         <h2> Single Item</h2>
