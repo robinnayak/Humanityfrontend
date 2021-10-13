@@ -4,11 +4,20 @@ export const size = {
     lg: '1200px',
 }
 export const device = {
-    xs: `(min-width:${size.xs})`,
-    sm: `(min-width:${size.sm})`,
-    lg: `(min-width:${size.lg})`,
+    xs: `${size.xs}`,
+    sm: `${size.sm}`,
+    lg: `${size.lg}`,
 }
 
 export const containerSize = {
-    width: ""
+    marginhorizontal: "2rem",
+    marginvertical: "2rem",
+}
+export const categorycolor = {
+    backside : "#D6FF79", 
+    cardbackside:"#001514",
+    cardiconcolor :"#6B0504", 
+    textcolor:"#FBFFFE",
+    linkcolor:"#C0FDFB",
+    linkhovercolor:"#64B6AC",
 }
