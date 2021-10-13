@@ -1,6 +1,5 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import { containerSize, categorycolor } from "../../alljsfiles/breakpoint";
-// import Snacks from "../../../png images/snacks.png";
 import Slider from 'react-slick';
 import { categories } from "../../alljsfiles/dataDetail";
 const Container = styled.div`
@@ -49,11 +48,30 @@ const settings = {
     centerMode: true,
     autoplay:true,
     autoplaySpeed: 2000,
+    responsive:[
+        {
+            breakpoint:1000,
+            settings:{
+                slidesToShow:2,
+                slidesToScroll:1,
+                infinite:true ,
+            }
+        },
+        {   
+            breakpoint:600,
+            settings:{
+                slidesToShow:1,
+                slidesToScroll:1,
+                infinite:true,
+            }
+             
+        }
+    ],    
   };
 
 
 function Categories() {
-    // console.log(window.innerWidth>"768px"?"smaller than 768px ":"bigger than 768px ");
+
     return (
         <>
             <Herotag>
@@ -65,10 +83,6 @@ function Categories() {
                         <Card key={index} itemname = {categorie.itemname} itemsrc = {categorie.itemsrc} flatoff={categorie.flatoff}  />
                     ))}
                 </Slider>
-                {/* <Card />
-                <Card />
-                <Card /> */}
-
             </Container>
         </>
     )
