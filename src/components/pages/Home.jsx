@@ -5,7 +5,7 @@ import Categories from "../component/homecompo/Categories";
 import Frontitems from "../component/homecompo/Frontitems";
 import { frontitems } from "../alljsfiles/dataDetail";
 import Vision from "../component/homecompo/Vision";
-import Footer from "../component/homecompo/Footer";
+import Footer from "../../footer/Footer";
 const Container = styled.div`
 
 ` 
