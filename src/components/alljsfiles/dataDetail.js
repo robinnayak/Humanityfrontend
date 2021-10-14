@@ -48,3 +48,209 @@ export const categories = [
     flatoff : "60%",
 },
 ]
+
+
+// ============================== items detail =============================
+
+export const frontitems = [
+    {
+        tag : "limited stocks",
+        card : [
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "black chasma",
+                },
+                itemcontainers : {
+                    itemname : "Black chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "Black gogle",
+                },
+                itemcontainers : {
+                    itemname : "Black gogle",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "chasma",
+                },
+                itemcontainers : {
+                    itemname : "chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "glasses",
+                },
+                itemcontainers : {
+                    itemname : "Big chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "glasses",
+                },
+                itemcontainers : {
+                    itemname : "Black chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+        ]
+    },
+    {
+        tag : "comming soon",
+        card : [
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "black chasma",
+                },
+                itemcontainers : {
+                    itemname : "Black chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "Black gogle",
+                },
+                itemcontainers : {
+                    itemname : "Black gogle",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "chasma",
+                },
+                itemcontainers : {
+                    itemname : "chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    alt : "glasses",
+                },
+                itemcontainers : {
+                    itemname : "Big chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    // imgsrc : "https://images.unsplash.com/photo-1519625073050-2815233885ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+                    imgsrc : "https://images.unsplash.com/photo-1593642633279-1796119d5482?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80",
+                    alt : "glasses",
+                },
+                itemcontainers : {
+                    itemname : "Black chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+        ]
+    },
+    {
+        tag : "new available",
+        card : [
+            {
+                itemsold : "item sold",
+                images : {
+                    
+                    imgsrc : "https://images.unsplash.com/photo-1619506147448-b56ba8ee11d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+                    alt : "black chasma",
+                },
+                itemcontainers : {
+                    itemname : "Black chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1619506147448-b56ba8ee11d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+                    
+                    alt : "Black gogle",
+                },
+                itemcontainers : {
+                    itemname : "Black gogle",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                   
+                    imgsrc : "https://images.unsplash.com/photo-1619506147448-b56ba8ee11d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+                    alt : "chasma",
+                },
+                itemcontainers : {
+                    itemname : "chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1619506147448-b56ba8ee11d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+                    
+                    alt : "glasses",
+                },
+                itemcontainers : {
+                    itemname : "Big chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+            {
+                itemsold : "item sold",
+                images : {
+                    imgsrc : "https://images.unsplash.com/photo-1619506147448-b56ba8ee11d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+                    alt : "glasses",
+                },
+                itemcontainers : {
+                    itemname : "Black chasma",
+                    discounted:"$1000",
+                    price : "$1200",
+                }
+            },
+        ]
+    },
+]
